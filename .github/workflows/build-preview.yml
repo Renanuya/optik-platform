@@ -1,0 +1,52 @@
+name: Build CAD and MuJoCo previews
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      MUJOCO_GL: osmesa
+      PYOPENGL_PLATFORM: osmesa
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: System libraries
+        run: sudo apt-get update -qq && sudo apt-get install -y libosmesa6 libgl1 libglu1-mesa fonts-dejavu-core
+      - name: Python packages
+        run: python -m pip install -r requirements-ci.txt
+      - name: Build optical platform variants
+        run: python model.py
+      - name: Check assemblies
+        run: python validate.py
+      - name: Engineering drawings
+        run: python documents.py
+      - name: Prepare release files
+        run: python publish.py
+      - name: Prepare MuJoCo models
+        run: python prepare_simulation.py
+      - name: Run and render movement demonstrations
+        run: python simulate.py
+      - name: Collect generated results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: optik-results
+          compression-level: 6
+          path: |
+            cad/
+            stl/
+            images/
+            drawings/
+            checks/
+            simulation/
+            parts.json
+            joint-frames.json
+            BOM.csv
+            README.md
+          retention-days: 14

@@ -19,6 +19,38 @@ from OCP.TopAbs import TopAbs_FACE, TopAbs_REVERSED
 from OCP.TopoDS import TopoDS
 from OCP.BRep import BRep_Tool
 from OCP.TopLoc import TopLoc_Location
+from OCP.BRepBuilderAPI import BRepBuilderAPI_MakeWire, BRepBuilderAPI_MakeEdge
+from OCP.GC import GC_MakeArcOfCircle
+from OCP.BRepOffsetAPI import BRepOffsetAPI_ThruSections
+
+def rounded_wire(l,w,r,z=0,cx=0,cy=0):
+    rr=[r]*4 if isinstance(r,(int,float)) else list(r)
+    centers=[(l/2-rr[0],-w/2+rr[0]),(l/2-rr[1],w/2-rr[1]),
+      (-l/2+rr[2],w/2-rr[2]),(-l/2+rr[3],-w/2+rr[3])]
+    wire=BRepBuilderAPI_MakeWire()
+    endpoints=[]
+    for i,((x,y),rad) in enumerate(zip(centers,rr)):
+        start=math.radians(-90+90*i)
+        point=lambda a:gp_Pnt(cx+x+rad*math.cos(a),cy+y+rad*math.sin(a),z)
+        endpoints.append((point(start),point(start+math.pi/2)))
+    for i,((x,y),rad) in enumerate(zip(centers,rr)):
+        start=math.radians(-90+90*i)
+        mid=gp_Pnt(cx+x+rad*math.cos(start+math.pi/4),cy+y+rad*math.sin(start+math.pi/4),z)
+        wire.Add(BRepBuilderAPI_MakeEdge(GC_MakeArcOfCircle(endpoints[i][0],mid,endpoints[i][1]).Value()).Edge())
+        wire.Add(BRepBuilderAPI_MakeEdge(endpoints[i][1],endpoints[(i+1)%4][0]).Edge())
+    return wire.Wire()
+
+def loft_solid(sections):
+    tool=BRepOffsetAPI_ThruSections(True,True,1e-6)
+    for wire in sections:tool.AddWire(wire)
+    tool.CheckCompatibility(True);tool.Build()
+    return tool.Shape()
+
+def rounded_yz(width,height,depth,r,c):
+    wire=rounded_wire(width,height,r)
+    shape=BRepPrimAPI_MakePrism(BRepBuilderAPI_MakeFace(wire).Face(),gp_Vec(0,0,depth)).Shape()
+    shape=rotate(shape,(1,1,1),120)
+    return translate(shape,(c[0]-depth/2,c[1],c[2]))
 
 def box(x,y,z,c=(0,0,0)):
     return BRepPrimAPI_MakeBox(gp_Pnt(c[0]-x/2,c[1]-y/2,c[2]-z/2),x,y,z).Shape()

@@ -1,5 +1,6 @@
 """Orthographic, depth-buffered CAD previews; no generative images."""
 import numpy as np
+from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from geometry import mesh
 from matplotlib.colors import to_rgb
@@ -38,7 +39,9 @@ def render(items,path,title,subtitle='',elev=27,azim=-62):
         screen[ymin:ymax+1,xmin:xmax+1][keep]=np.clip(color*shade*255,0,255).astype('uint8'); old[keep]=z[keep]
     img=Image.fromarray(screen); d=ImageDraw.Draw(img)
     fontpath='/System/Library/Fonts/Supplemental/Arial.ttf'; boldpath='/System/Library/Fonts/Supplemental/Arial Bold.ttf'
+    if not Path(fontpath).exists():
+        fontpath='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf';boldpath='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
     d.text((70,38),title,font=ImageFont.truetype(boldpath,44),fill='#172c35')
     d.text((72,102),subtitle,font=ImageFont.truetype(fontpath,21),fill='#52656b')
-    d.text((72,H-58),'OPTIK / R0.1   |   GERCEK CAD GEOMETRISI   |   PROTOTIP - MONTAJ DOGRULAMASI GEREKIR',font=ImageFont.truetype(fontpath,17),fill='#52656b')
+    d.text((72,H-58),'OPTIK / R0.2   |   GERCEK CAD GEOMETRISI   |   PROTOTIP - MONTAJ DOGRULAMASI GEREKIR',font=ImageFont.truetype(fontpath,17),fill='#52656b')
     img.save(path)
