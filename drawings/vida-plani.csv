@@ -1,0 +1,23 @@
+﻿Baglanti,Vida,V1_adet,V2_adet,Karsilik,Nominal_yigin_notu
+P02 / P01,M2x10,4,4,P01 insert,Kapak 3 mm + insert; standart bas altı boy.
+P09 / P01,M2x16,4,4,M2 somun,6+6 mm yığın; altta somun ve ayak boşluğu.
+P10 / P09,M2x16,3,3,P09 insert,Kartuş 12 mm; kör deliğe uç dayanmamalı.
+P12 / P01,M2x10,4,4,P12 insert,Taban 6 mm; en fazla yaklaşık 4 mm insert kavrama.
+Servo kulakları,M2x12,8,8,M2 somun + geniş pul,Slotlarda D6 pul; gerçek servo kulak boyu kontrol edilir.
+İki P13 / stok horn,M2x14,8,8,M2 somun,Baskı dişli 8 mm + gerçek horn; başlık açıklığı ölçülecek.
+P14 / P15,M2x12,3,3,P15 insert,8 mm dişli + yaklaşık 4 mm kavrama.
+P15 mil sıkma,M2x40,2,2,P15 M2 somun cebi,Mili aşırı sıkarak plastik göbeği çatlatmayın.
+P16 / P15,M2x14,4,4,P15 somun cebi,8+6 mm; uç flanş altına taşmamalı.
+P17/P18 / P16,M2x16,4,4,M2 somun,6+8 mm + altta somun.
+Pan AS5600 / P11,M2x4,4,4,P11 insert,PCB 1.6 mm; yaklaşık 2.4 mm kavrama. Kör tabana uzun vida gönderilmez.
+P23 + sağ AS5600 / P18,M2x8,4,4,P18 insert,Kapak 3 mm + PCB 1.6 mm + insert.
+P11 / P09 çekmece,M2x8,2,2,P09 D1.7 pilot,Düşük torkla plastik diş; önce pilot denemesi.
+P05/P04 / P03,M2x10,4,4,M2 somun,Kamera kaseti 41x29 mm pattern; fabrika PCB delikleri değildir.
+P08/P07 / P03,M2x16,2,2,P03 insert,Optik kelepçe; modülü ezmeden sıkın.
+P06 / P03,M2x35,4,4,P03 insert,30 mm sırt kapağı + insert.
+P25 / P06,M2x8,2,2,P06 insert,3 mm taşıyıcı + insert; kart kayışla tutulur.
+P20 / P01,M2x55,4,4,P01 insert,Muhafaza+kapak; uzun ince vidanın doğruluğunu kontrol edin.
+E03/E05 / P17/P18,M2x8,0,8,Dikme insertleri,Yalnız V2; iç sabit çerçeveler.
+E04 / E03,M2x35,0,4,E03 insert,Yalnız V2; sol dış kapak karşı havşası.
+E06 / E05,M2x25,0,4,E05 insert,Yalnız V2; sağ dış kapak.
+E01/E02 / P01,M2x12,0,4,M2 somun,Yalnız V2; alt kabuk 3 mm + taban 6 mm.

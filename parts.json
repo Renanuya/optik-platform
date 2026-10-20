@@ -18,7 +18,7 @@
       150.0,
       30.0
     ],
-    "volume_mm3": 231408.02905677762,
+    "volume_mm3": 231494.5325047963,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -30,8 +30,9 @@
     "features": [
       "Dis olcu 190 x 150 x 30",
       "R12 dis kose",
-      "4x M3 insert yuvasi D4.4 x 5",
-      "4x tezgah deligi D4.5 / 146 x 106 aralik"
+      "8x M2 insert yuvasi D3.1 x 5",
+      "4x tezgah deligi D2.4 / 146 x 106 aralik",
+      "Kule: 4x D2.4 / 44 x 44 aralik"
     ]
   },
   {
@@ -53,7 +54,7 @@
       150.0,
       3.0
     ],
-    "volume_mm3": 74290.5625797941,
+    "volume_mm3": 74399.89000413893,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -63,8 +64,8 @@
       3.0
     ],
     "features": [
-      "4x D3.4 / 166 x 126 aralik",
-      "D32.6 merkez acikligi",
+      "4x D2.4 / 166 x 126 aralik",
+      "D36.8 merkez acikligi",
       "62 x 32 servo servis acikligi"
     ]
   },
@@ -87,20 +88,20 @@
       36.0,
       46.0
     ],
-    "volume_mm3": 48276.70892211233,
+    "volume_mm3": 48068.2427433513,
     "watertight": true,
     "cad_valid": true,
-    "print_axis": "Z",
+    "print_axis": "Y",
     "print_size": [
       109.4,
-      36.0,
-      46.0
+      46.0,
+      36.0
     ],
     "features": [
       "96 x 36 x 46 ana govde",
       "D8.5 iki yan mil deligi",
-      "M8 somun cebi AF13.3",
-      "4x M3 insert D4.4 x 5",
+      "Sol AF13.3 / sag AF10.3 somun cebi",
+      "4x M2 insert D3.1 x 5",
       "37 x 25 kamera penceresi"
     ]
   },
@@ -123,7 +124,7 @@
       3.0,
       35.0
     ],
-    "volume_mm3": 2461.27761734993,
+    "volume_mm3": 2486.253278945968,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Y",
@@ -135,7 +136,7 @@
     "features": [
       "PCB nominali 35.7 x 23.9",
       "32 x 20 optik aciklik",
-      "4x D2.9 / 41 x 29 aralik"
+      "4x D2.4 / 41 x 29 aralik"
     ]
   },
   {
@@ -157,7 +158,7 @@
       1.5,
       35.0
     ],
-    "volume_mm3": 1467.8688086749644,
+    "volume_mm3": 1480.3566394729842,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Y",
@@ -168,41 +169,43 @@
     ],
     "features": [
       "47 x 35 x 1.5",
-      "4x D2.9",
+      "4x D2.4",
       "Konektor acikligi fiziksel PCB ile dogrulanacak"
     ]
   },
   {
     "code": "P06",
-    "name": "Baslik arka kapagi",
+    "name": "Elektronik sirt kapagi",
     "qty": 1,
-    "note": "Kablo cikisi + sogutma / 4 adet M3 vida",
+    "note": "Kisa kamera baglantisi / ESP kaseti / 4 adet M2 vida",
     "color": "#374e58",
     "bbox": [
       -48.0,
       18.0,
       -23.0,
       48.0,
-      21.0,
+      48.0,
       23.0
     ],
     "size": [
       96.0,
-      3.0,
+      30.0,
       46.0
     ],
-    "volume_mm3": 12085.562828838632,
+    "volume_mm3": 38214.44067331998,
     "watertight": true,
     "cad_valid": true,
-    "print_axis": "Y",
+    "print_axis": "-Y",
     "print_size": [
       96.0,
       46.0,
-      3.0
+      30.0
     ],
     "features": [
-      "4x D3.4 / 85 x 35 aralik",
-      "14 x 7 kablo cikisi"
+      "96 x 30 x 46 / on yuz Y18",
+      "4x D2.4 / 85 x 35 aralik",
+      "ESP tasiyici baglantisi: 2x M2",
+      "Kontrol karti modeli dogrulanacak"
     ]
   },
   {
@@ -212,10 +215,10 @@
     "note": "Picotronic D8 x 21 mm govde / D8.30 yatak",
     "color": "#307f8a",
     "bbox": [
-      17.0,
+      23.0,
       -8.0,
       -6.0,
-      35.0,
+      41.0,
       8.0,
       2.541142108230758e-16
     ],
@@ -224,7 +227,7 @@
       16.0,
       6.0
     ],
-    "volume_mm3": 1215.888981538328,
+    "volume_mm3": 1240.8646431343677,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -236,29 +239,29 @@
     "features": [
       "18 x 16 x 6",
       "D8.30 yari kanal",
-      "2x D2.9 / 13 aralik"
+      "2x D2.4 / 13 aralik"
     ]
   },
   {
     "code": "P08",
     "name": "Isik ust kelepcesi",
     "qty": 1,
-    "note": "Iki M2.5 ile kapatma / optik govdeye baskiyi sinirla",
+    "note": "Iki M2 ile kapatma / optik govdeye baskiyi sinirla",
     "color": "#374e58",
     "bbox": [
-      17.0,
+      23.0,
       -8.0,
-      0.19999999999999363,
-      35.0,
+      0.20000000000000018,
+      41.0,
       8.0,
       6.2
     ],
     "size": [
       18.0,
       16.0,
-      6.000000000000006
+      6.0
     ],
-    "volume_mm3": 1242.4386968291021,
+    "volume_mm3": 1267.414358425141,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -277,35 +280,35 @@
     "code": "P09",
     "name": "Pan rulman kulesi",
     "qty": 1,
-    "note": "608 yatak / enkoder erisimi / 4 adet M4 taban baglantisi",
+    "note": "608 yatak / enkoder erisimi / 4 adet M2 taban baglantisi",
     "color": "#307f8a",
     "bbox": [
-      -29.0,
-      -29.0,
+      -28.0,
+      -28.0,
       6.0,
-      29.0,
-      29.0,
+      28.0,
+      28.0,
       47.0
     ],
     "size": [
-      58.0,
-      58.0,
+      56.0,
+      56.0,
       41.0
     ],
-    "volume_mm3": 32548.29874508057,
+    "volume_mm3": 31771.211210188467,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
     "print_size": [
-      58.0,
-      58.0,
+      56.0,
+      56.0,
       41.0
     ],
     "features": [
-      "58 x 58 taban",
-      "4x D4.5 / 44 x 44 aralik",
+      "56 x 56 taban",
+      "4x D2.4 / 44 x 44 aralik",
       "Alt 608 cebi D22.15 x 7 / Z40-47",
-      "3x M3 insert / PCD29"
+      "3x M2 insert / PCD29"
     ]
   },
   {
@@ -327,7 +330,7 @@
       36.0,
       12.0
     ],
-    "volume_mm3": 7917.977839823517,
+    "volume_mm3": 8081.9689763409015,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -339,7 +342,7 @@
     "features": [
       "D36 x 12",
       "608 cebi D22.15 x 7",
-      "3x D3.4 / PCD29"
+      "3x D2.4 / PCD29"
     ]
   },
   {
@@ -361,7 +364,7 @@
       43.0,
       8.0
     ],
-    "volume_mm3": 4381.336060814489,
+    "volume_mm3": 4425.396897781086,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -372,7 +375,7 @@
     ],
     "features": [
       "PCB 25.4 x 17.78",
-      "4x M2.5 insert / 20.32 x 12.70 aralik",
+      "4x M2 insert / 20.32 x 12.70 aralik",
       "PCB alt duzlemi Z10.5"
     ]
   },
@@ -395,7 +398,7 @@
       32.0,
       41.9
     ],
-    "volume_mm3": 14937.646929131026,
+    "volume_mm3": 15290.265041393266,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -408,7 +411,7 @@
       "Gövde penceresi 41.3 x 20.3",
       "Kulak yuzeyi Z47.9",
       "Nominal kulak vida araligi 49 x 10, slot ile ayar",
-      "Alt 4x insert D4.4 x 5"
+      "Alt 4x insert D3.1 x 5"
     ]
   },
   {
@@ -430,7 +433,7 @@
       47.82393866206136,
       8.0
     ],
-    "volume_mm3": 11597.475826201036,
+    "volume_mm3": 11675.277590457139,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -465,7 +468,7 @@
       56.857235780160316,
       8.0
     ],
-    "volume_mm3": 17286.072268207576,
+    "volume_mm3": 17395.39969255245,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
@@ -476,7 +479,7 @@
     ],
     "features": [
       "m1.5 / z36 / basinc acisi 20",
-      "3x D3.4 / PCD29",
+      "3x D2.4 / PCD29",
       "D8.5 merkez deligi"
     ]
   },
@@ -484,69 +487,72 @@
     "code": "P15",
     "name": "Pan doner tasiyici",
     "qty": 1,
-    "note": "D8 mil sikma gobegi / kamera koprusu / mekanik hareket durdurucu",
+    "note": "D8 mil sikma gobegi / korumali kablo halkasi / 20 mm ek aciklik",
     "color": "#307f8a",
     "bbox": [
-      -46.0,
-      -46.0,
-      74.9999999,
-      46.0,
-      46.0,
-      100.0
+      -60.0,
+      -60.0,
+      75.0,
+      60.0,
+      60.0,
+      120.0
     ],
     "size": [
-      92.0,
-      92.0,
-      25.000000099999994
+      120.0,
+      120.0,
+      45.0
     ],
-    "volume_mm3": 57024.02466556786,
+    "volume_mm3": 104833.07990460131,
     "watertight": true,
     "cad_valid": true,
-    "print_axis": "Z",
+    "print_axis": "-Z",
     "print_size": [
-      92.0,
-      92.0,
-      25.0
+      120.0,
+      119.91194172609721,
+      45.000000000000014
     ],
     "features": [
-      "D92 x 6 ust flans",
+      "D120 x 6 ust flans",
       "D8.10 mil cebi",
-      "M3 capraz sikma civatasi",
-      "4x M3 / 52 x 52 aralik",
-      "3x insert / PCD29"
+      "2x M2 capraz sikma civatasi",
+      "4x M2 / 52 x 52 aralik",
+      "3x insert / PCD29",
+      "16 x 10 kablo gecisi / R25"
     ]
   },
   {
     "code": "P16",
     "name": "Optik platform koprusu",
     "qty": 1,
-    "note": "168 x 90 x 6 mm / iki dikme / yalniz kamera ve isik basligi",
+    "note": "168 x 90 x 8 mm / altta 12 mm kablo kanallari",
     "color": "#307f8a",
     "bbox": [
       -84.0,
       -45.0,
-      100.0,
+      120.0,
       84.0,
       45.0,
-      106.0
+      128.0
     ],
     "size": [
       168.0,
       90.0,
-      6.0
+      8.0
     ],
-    "volume_mm3": 89415.4387542238,
+    "volume_mm3": 110034.78223910945,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "Z",
     "print_size": [
       168.0,
       90.0,
-      6.0
+      8.0
     ],
     "features": [
-      "4x D3.4 / 52 x 52 aralik",
-      "Dikme delikleri D4.5 / 148 x 60 aralik"
+      "4x D2.4 / 52 x 52 aralik",
+      "Dikme delikleri D2.4 / 148 x 60 aralik",
+      "Kanal derinligi 4.5 mm",
+      "Kablo cikislari D8.5"
     ]
   },
   {
@@ -556,32 +562,33 @@
     "note": "Tilt servosu + 608 yatagi / yan yuzeyi baski tablasina",
     "color": "#307f8a",
     "bbox": [
-      -95.0,
+      -101.0,
       -45.0,
-      106.0,
+      128.0,
       -52.0,
       45.0,
-      222.0
+      244.0
     ],
     "size": [
-      43.0,
+      49.0,
       90.0,
       116.0
     ],
-    "volume_mm3": 91075.33810808294,
+    "volume_mm3": 97736.97488491985,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "X",
     "print_size": [
       116.0,
       90.0,
-      43.00000000000001
+      49.00000000000001
     ],
     "features": [
-      "Tilt ekseni Z205",
-      "Motor ekseni Z155.5",
+      "Tilt ekseni Z227",
+      "Motor ekseni Z177.5",
       "49.5 mm disli eksen araligi",
       "608 cebi D22.15 x 9",
+      "D12.4 ara burc rahatlatmasi",
       "Slotlu servo montaji"
     ]
   },
@@ -594,28 +601,29 @@
     "bbox": [
       52.0,
       -45.0,
-      106.0,
+      128.0,
       84.0,
       45.0,
-      222.0
+      247.0
     ],
     "size": [
       32.0,
       90.0,
-      116.0
+      119.0
     ],
-    "volume_mm3": 44440.09052638448,
+    "volume_mm3": 50281.12051113692,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "X",
     "print_size": [
-      116.0,
+      119.0,
       90.0,
-      32.00000000000001
+      31.999999999999993
     ],
     "features": [
-      "Tilt ekseni Z205",
+      "Tilt ekseni Z227",
       "608 cebi D22.15 x 9",
+      "D12.4 ara burc rahatlatmasi",
       "AS5600: 20.32 x 12.70 aralik",
       "PCB alt duzlemi X80"
     ]
@@ -624,22 +632,22 @@
     "code": "P19",
     "name": "Tilt cikis dislisi",
     "qty": 1,
-    "note": "36 dis / M8 baslik yakalama / standart 8 mm omuzlu baglanti",
+    "note": "36 dis / M8 x 35 DIN931 baslik cebi",
     "color": "#db9e52",
     "bbox": [
       -76.0,
       -28.428617890080158,
-      176.57138210991982,
+      198.57138210991985,
       -68.0,
       28.428617890080158,
-      233.42861789008015
+      255.42861789008015
     ],
     "size": [
       8.0,
       56.857235780160316,
-      56.85723578016032
+      56.857235780160295
     ],
-    "volume_mm3": 16983.16356626268,
+    "volume_mm3": 16983.16356626269,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "X",
@@ -661,29 +669,29 @@
     "color": "#374e58",
     "bbox": [
       -40.0,
-      -40.526315789473685,
+      -62.0,
       33.0,
       88.0,
-      40.526315789473685,
-      93.7
+      62.0,
+      113.7
     ],
     "size": [
       128.0,
-      81.05263157894737,
-      60.7
+      124.0,
+      80.7
     ],
-    "volume_mm3": 47496.51994884733,
+    "volume_mm3": 59752.76725820306,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "-Z",
     "print_size": [
       128.0,
-      81.05076667095227,
-      60.70000000000001
+      124.0,
+      80.70000000000002
     ],
     "features": [
-      "128 x 76 dis cevre",
-      "4x D3.4 uzun baglanti",
+      "Genisletilmis pan durdurucu kollari",
+      "4x D2.4 uzun baglanti",
       "D38 doner gobek boslugu",
       "+-90 derece mekanik sinir"
     ]
@@ -731,17 +739,17 @@
     "bbox": [
       67.0,
       -8.0,
-      197.0,
+      219.0,
       76.7,
       8.0,
-      213.0
+      235.0
     ],
     "size": [
       9.700000000000003,
       16.0,
       16.0
     ],
-    "volume_mm3": 1107.9690430864152,
+    "volume_mm3": 1107.969043086415,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "X",
@@ -760,22 +768,22 @@
     "code": "P23",
     "name": "Enkoder dis kapagi",
     "qty": 1,
-    "note": "AS5600 PCB arka yuzu / 4 adet M2.5 baglanti",
+    "note": "AS5600 PCB arka yuzu / 4 adet M2 baglanti",
     "color": "#374e58",
     "bbox": [
       81.6,
       -17.0,
-      191.5,
+      213.5,
       84.6,
       17.0,
-      218.5
+      240.5
     ],
     "size": [
       3.0,
       34.0,
       27.0
     ],
-    "volume_mm3": 2674.7376173499288,
+    "volume_mm3": 2699.713278945969,
     "watertight": true,
     "cad_valid": true,
     "print_axis": "X",
@@ -786,7 +794,322 @@
     ],
     "features": [
       "34 x 27 x 3",
-      "4x D2.9 / 20.32 x 12.70 aralik"
+      "4x D2.4 / 20.32 x 12.70 aralik"
+    ]
+  },
+  {
+    "code": "P24",
+    "name": "Gecme deneme kuponu",
+    "qty": 1,
+    "note": "Ilk baski / rulman, mil, optik modul ve insert toleransi",
+    "color": "#db9e52",
+    "bbox": [
+      -60.0,
+      -31.0,
+      0.0,
+      60.0,
+      31.0,
+      8.0
+    ],
+    "size": [
+      120.0,
+      62.0,
+      8.0
+    ],
+    "volume_mm3": 45227.48236484464,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      120.0,
+      62.0,
+      8.0
+    ],
+    "features": [
+      "Ust sira, soldan: D21.95 / 22.05 / 22.15 / 22.25",
+      "Alt sol: D7.95 / 8.05 / 8.15 / 8.30",
+      "Alt sag: D2.8 / 3.0 / 3.1",
+      "Orta sag: D1.9 / 2.1 / 2.4",
+      "Tum delikler gecis deligi, kupon kalinligi 8"
+    ]
+  },
+  {
+    "code": "P25",
+    "name": "ESP elektronik kaseti",
+    "qty": 1,
+    "note": "62.74 x 25.40 mm DevKitC-1 referansi / ayarlanabilir baglama",
+    "color": "#307f8a",
+    "bbox": [
+      -41.0,
+      33.0,
+      -17.0,
+      41.0,
+      36.0,
+      17.0
+    ],
+    "size": [
+      82.0,
+      3.0,
+      34.0
+    ],
+    "volume_mm3": 2820.6905700266802,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Y",
+    "print_size": [
+      81.99748700113447,
+      34.0,
+      3.0
+    ],
+    "features": [
+      "Uretici karti kimligi dogrulanmadi",
+      "2x D2.4 / 74 mm aralik",
+      "4 baglama yuvasi 8 x 2",
+      "PCB arka yuz Y33"
+    ]
+  },
+  {
+    "code": "P26",
+    "name": "Kablo kilavuz klipsi",
+    "qty": 6,
+    "note": "Genel M2 kablo rehberi / prototipte uygun konuma takilir",
+    "color": "#307f8a",
+    "bbox": [
+      -8.0,
+      -6.0,
+      0.0,
+      8.0,
+      6.0,
+      6.0
+    ],
+    "size": [
+      16.0,
+      12.0,
+      6.0
+    ],
+    "volume_mm3": 642.3504368438171,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      16.0,
+      12.0,
+      6.0
+    ],
+    "features": [
+      "16 x 12 x 6",
+      "10 x 4 acik kanal",
+      "M2 baglanti; montaj modelinde gosterilmez"
+    ]
+  },
+  {
+    "code": "E01",
+    "name": "V2 taban on kabuk",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      -92.50000010000012,
+      -82.5000001,
+      -3.0000001,
+      112.5000001000001,
+      1.0000000759281015e-07,
+      113.0000001
+    ],
+    "size": [
+      205.00000020000022,
+      82.5000002,
+      116.00000019999999
+    ],
+    "volume_mm3": 159795.6559247651,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      205.0,
+      82.5,
+      116.0
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
+    ]
+  },
+  {
+    "code": "E02",
+    "name": "V2 taban arka kabuk",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      -92.50000010000012,
+      -6.0,
+      -3.0000001,
+      112.5000001000001,
+      82.5000001,
+      113.0000001
+    ],
+    "size": [
+      205.00000020000022,
+      88.5000001,
+      116.00000019999999
+    ],
+    "volume_mm3": 160196.6015806708,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      205.0,
+      88.5,
+      116.0
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
+    ]
+  },
+  {
+    "code": "E03",
+    "name": "V2 sol sabit cerceve",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      -100.0,
+      -50.00000000000002,
+      121.99999999999997,
+      -54.599999999999966,
+      50.00000000000004,
+      261.00000000000006
+    ],
+    "size": [
+      45.400000000000034,
+      100.00000000000006,
+      139.00000000000009
+    ],
+    "volume_mm3": 85606.54834380178,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      139.00000000000003,
+      100.00000000000006,
+      45.40000000000004
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
+    ]
+  },
+  {
+    "code": "E04",
+    "name": "V2 sol servis kapagi",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      -134.00000000000003,
+      -50.00000000000002,
+      121.99999999999997,
+      -100.0,
+      50.00000000000003,
+      261.00000000000006
+    ],
+    "size": [
+      34.00000000000003,
+      100.00000000000006,
+      139.00000000000009
+    ],
+    "volume_mm3": 95052.53207940332,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "-X",
+    "print_size": [
+      139.00000000000003,
+      100.00000000000006,
+      34.000000000000014
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
+    ]
+  },
+  {
+    "code": "E05",
+    "name": "V2 sag sabit cerceve",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      54.599999999999966,
+      -29.000000000000018,
+      135.0,
+      74.0,
+      29.000000000000057,
+      254.0
+    ],
+    "size": [
+      19.400000000000034,
+      58.00000000000007,
+      119.0
+    ],
+    "volume_mm3": 31504.415823738458,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "-X",
+    "print_size": [
+      119.0,
+      58.00000000000004,
+      19.40000000000002
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
+    ]
+  },
+  {
+    "code": "E06",
+    "name": "V2 sag servis kapagi",
+    "qty": 1,
+    "note": "Sokulebilir optik platform dis kabugu / R0.2 / M2 montaj",
+    "color": "#dce1df",
+    "bbox": [
+      74.0,
+      -29.000000000000018,
+      125.99999999999997,
+      91.00000059999999,
+      29.000000000000057,
+      254.00000000000003
+    ],
+    "size": [
+      17.000000599999993,
+      58.00000000000007,
+      128.00000000000006
+    ],
+    "volume_mm3": 35712.134244304376,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      128.00000000000003,
+      58.00000000000004,
+      17.0
+    ],
+    "features": [
+      "Nominal 3 mm duvar",
+      "Yalniz V2 kapali surumde kullanilir",
+      "M2 vida ve insert baglantisi",
+      "Destek ve gecme onizlemesi gerekli"
     ]
   }
 ]

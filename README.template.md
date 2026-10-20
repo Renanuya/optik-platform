@@ -12,7 +12,7 @@
 - [{{PAGE_COUNT}} sayfa A3 teknik PDF](drawings/OPTIK-teknik-cizimler.pdf): üç görünüş, dış ölçüler, kritik delik/pattern ölçüleri ve montaj notları.
 - [V1 montaj STEP ZIP](cad/OPTIK-V1-montaj.zip) · [V2 montaj STEP ZIP](cad/OPTIK-V2-montaj.zip).
 - `cad/`: {{PART_COUNT}} düzenlenebilir STEP parçası. `stl/`: baskı yönüne çevrilmiş, Z=0 STL dosyaları.
-- [Donanım/vida listesi](BOM.csv) · [Temel delik koordinatları](drawings/delik-koordinatlari.csv) · [Eklem referansları](joint-frames.json).
+- [Donanım listesi](BOM.csv) · [Bağlantı bazında M2 vida planı](drawings/vida-plani.csv) · [Temel delik koordinatları](drawings/delik-koordinatlari.csv) · [Eklem referansları](joint-frames.json).
 - [Parça kontrolleri](checks/part-checks.json) · [Montaj örneklemesi](checks/assembly-checks.json).
 - [MuJoCo V1 videosu](simulation/optik-v1.mp4) · [MuJoCo V2 videosu](simulation/optik-v2.mp4) · [Simülasyon kapsamı](simulation/README.md).
 

@@ -1,0 +1,450 @@
+[
+  {
+    "code": "P01",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      190.0,
+      150.0,
+      30.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P02",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      190.0,
+      150.0,
+      3.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P03",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      109.4000015258789,
+      46.0,
+      36.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P04",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      47.0,
+      35.0,
+      3.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P05",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      47.0,
+      35.0,
+      1.5
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P06",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      96.0,
+      46.0,
+      30.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P07",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      18.0,
+      16.0,
+      6.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P08",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      18.0,
+      16.0,
+      6.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P09",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      56.0,
+      56.0,
+      41.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P10",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      35.977622985839844,
+      35.98881149291992,
+      12.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P11",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      44.0,
+      43.0,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P12",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      62.0,
+      32.0,
+      41.900001525878906
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P13",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      48.0,
+      47.82394027709961,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P14",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      56.857234954833984,
+      56.857234954833984,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P15",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      120.0,
+      119.91194152832031,
+      45.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P16",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      168.0,
+      90.0,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P17",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      116.0,
+      90.0,
+      49.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P18",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      119.0,
+      90.0,
+      32.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P19",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      56.857234954833984,
+      56.857234954833984,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P20",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      128.0,
+      124.0,
+      80.69999694824219
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P21",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      11.992541313171387,
+      11.996270179748535,
+      10.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P22",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      15.990055084228516,
+      15.995026588439941,
+      9.699999809265137
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P23",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      27.0,
+      34.0,
+      3.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P24",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      120.0,
+      62.0,
+      8.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P25",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      81.99748992919922,
+      34.0,
+      3.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "P26",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      16.0,
+      12.0,
+      6.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E01",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      205.0,
+      82.5,
+      116.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E02",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      205.0,
+      88.5,
+      116.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E03",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      139.0,
+      100.0,
+      45.400001525878906
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E04",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      139.0,
+      100.0,
+      34.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E05",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      119.0,
+      58.0,
+      19.399999618530273
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  },
+  {
+    "code": "E06",
+    "step_valid": true,
+    "solids": 1,
+    "watertight": true,
+    "positive_volume": true,
+    "build_size_mm": [
+      128.0,
+      58.0,
+      17.0
+    ],
+    "fits_256_cube": true,
+    "minimum_z_mm": 0.0
+  }
+]

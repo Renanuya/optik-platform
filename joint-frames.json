@@ -1,0 +1,67 @@
+{
+  "units": "mm; joint angles rad",
+  "pan": {
+    "parent": "base",
+    "origin": [
+      0,
+      0,
+      120
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "limits": [
+      -1.5707963267948966,
+      1.5707963267948966
+    ]
+  },
+  "tilt": {
+    "parent": "pan",
+    "origin_in_pan": [
+      0,
+      0,
+      107
+    ],
+    "global_neutral_origin": [
+      0,
+      0,
+      227
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "limits": [
+      -1.5707963267948966,
+      1.5707963267948966
+    ]
+  },
+  "camera_cad_frame": {
+    "origin_in_head": [
+      -15,
+      -19,
+      0
+    ],
+    "nominal_view_direction": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "light_aperture": {
+    "origin_in_head": [
+      32,
+      -10.5,
+      0
+    ],
+    "direction": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "note": "CAD datums only. Pan datum at global Z120; tilt global Z227. Simulation XML uses base origin at Z0, with the same axis lines. Not a calibrated dynamic twin."
+}

@@ -1,0 +1,154 @@
+﻿Parca,Aciklama,Cap_mm,Merkez_X_mm,Merkez_Y_mm,Merkez_Z_mm,Eksen,Derinlik_mm
+P01,M2 kapak inserti,3.1,-73,-63,27.5,Z,5
+P02,Kapak baglantisi,2.4,-73,-63,31.5,Z,THRU
+P01,M2 kapak inserti,3.1,-73,63,27.5,Z,5
+P02,Kapak baglantisi,2.4,-73,63,31.5,Z,THRU
+P01,M2 kapak inserti,3.1,93,-63,27.5,Z,5
+P02,Kapak baglantisi,2.4,93,-63,31.5,Z,THRU
+P01,M2 kapak inserti,3.1,93,63,27.5,Z,5
+P02,Kapak baglantisi,2.4,93,63,31.5,Z,THRU
+P01,M2 muhafaza inserti,3.1,-34,-32,27.5,Z,5
+P02,Muhafaza gecisi,2.4,-34,-32,31.5,Z,THRU
+P20,Uzun muhafaza vidasi,2.4,-34,-32,57,Z,THRU
+P01,M2 muhafaza inserti,3.1,-34,32,27.5,Z,5
+P02,Muhafaza gecisi,2.4,-34,32,31.5,Z,THRU
+P20,Uzun muhafaza vidasi,2.4,-34,32,57,Z,THRU
+P01,M2 muhafaza inserti,3.1,82,-32,27.5,Z,5
+P02,Muhafaza gecisi,2.4,82,-32,31.5,Z,THRU
+P20,Uzun muhafaza vidasi,2.4,82,-32,57,Z,THRU
+P01,M2 muhafaza inserti,3.1,82,32,27.5,Z,5
+P02,Muhafaza gecisi,2.4,82,32,31.5,Z,THRU
+P20,Uzun muhafaza vidasi,2.4,82,32,57,Z,THRU
+P01,Kule tabani,2.4,-22,-22,3,Z,THRU
+P09,Kule ayagi,2.4,-22,-22,9,Z,THRU
+P01,Kule tabani,2.4,-22,22,3,Z,THRU
+P09,Kule ayagi,2.4,-22,22,9,Z,THRU
+P01,Kule tabani,2.4,22,-22,3,Z,THRU
+P09,Kule ayagi,2.4,22,-22,9,Z,THRU
+P01,Kule tabani,2.4,22,22,3,Z,THRU
+P09,Kule ayagi,2.4,22,22,9,Z,THRU
+P01,Tezgah montaji,2.4,-63,-53,3,Z,THRU
+P01,Tezgah montaji,2.4,-63,53,3,Z,THRU
+P01,Tezgah montaji,2.4,83,-53,3,Z,THRU
+P01,Tezgah montaji,2.4,83,53,3,Z,THRU
+P01,Servo sehpa gecisi,2.4,32.85,-12,3,Z,THRU
+P12,Servo sehpa inserti,3.1,32.85,-12,8.5,Z,5
+P01,Servo sehpa gecisi,2.4,32.85,12,3,Z,THRU
+P12,Servo sehpa inserti,3.1,32.85,12,8.5,Z,5
+P01,Servo sehpa gecisi,2.4,85.85,-12,3,Z,THRU
+P12,Servo sehpa inserti,3.1,85.85,-12,8.5,Z,5
+P01,Servo sehpa gecisi,2.4,85.85,12,3,Z,THRU
+P12,Servo sehpa inserti,3.1,85.85,12,8.5,Z,5
+P03,Kamera kaseti,2.4,-35.5,-16.5,-14.5,Y,THRU
+P03,Kamera kaseti,2.4,-35.5,-16.5,14.5,Y,THRU
+P03,Kamera kaseti,2.4,5.5,-16.5,-14.5,Y,THRU
+P03,Kamera kaseti,2.4,5.5,-16.5,14.5,Y,THRU
+P04,Kamera kaseti,2.4,-35.5,-13.5,-14.5,Y,THRU
+P04,Kamera kaseti,2.4,-35.5,-13.5,14.5,Y,THRU
+P04,Kamera kaseti,2.4,5.5,-13.5,-14.5,Y,THRU
+P04,Kamera kaseti,2.4,5.5,-13.5,14.5,Y,THRU
+P05,Kamera kaseti,2.4,-35.5,-11.25,-14.5,Y,THRU
+P05,Kamera kaseti,2.4,-35.5,-11.25,14.5,Y,THRU
+P05,Kamera kaseti,2.4,5.5,-11.25,-14.5,Y,THRU
+P05,Kamera kaseti,2.4,5.5,-11.25,14.5,Y,THRU
+P03,Arka kapak M2 insert,3.1,-42.5,15.5,-17.5,Y,5
+P06,Arka kapak gecisi,2.4,-42.5,19.5,-17.5,Y,THRU
+P03,Arka kapak M2 insert,3.1,-42.5,15.5,17.5,Y,5
+P06,Arka kapak gecisi,2.4,-42.5,19.5,17.5,Y,THRU
+P03,Arka kapak M2 insert,3.1,42.5,15.5,-17.5,Y,5
+P06,Arka kapak gecisi,2.4,42.5,19.5,-17.5,Y,THRU
+P03,Arka kapak M2 insert,3.1,42.5,15.5,17.5,Y,5
+P06,Arka kapak gecisi,2.4,42.5,19.5,17.5,Y,THRU
+P03,Isik M2 insert,3.1,25.5,0,-8.5,Z,5
+P07,Isik kelepce gecisi,2.4,25.5,0,-3,Z,THRU
+P08,Isik kelepce gecisi,2.4,25.5,0,3.2,Z,THRU
+P03,Isik M2 insert,3.1,38.5,0,-8.5,Z,5
+P07,Isik kelepce gecisi,2.4,38.5,0,-3,Z,THRU
+P08,Isik kelepce gecisi,2.4,38.5,0,3.2,Z,THRU
+P09,608 yatak cebi,22.15,0,0,43.5,Z,7
+P10,608 yatak cebi,22.15,0,0,55.5,Z,7
+P09,PCD29 baglanti,3.1,14.5,0.0,44.5,Z,5
+P10,PCD29 baglanti,2.4,14.5,0.0,53,Z,THRU
+P14,PCD29 baglanti,2.4,14.5,0.0,71,Z,THRU
+P15,PCD29 baglanti,3.1,14.5,0.0,77.5,Z,5
+P09,PCD29 baglanti,3.1,-7.249999999999997,12.557368354874361,44.5,Z,5
+P10,PCD29 baglanti,2.4,-7.249999999999997,12.557368354874361,53,Z,THRU
+P14,PCD29 baglanti,2.4,-7.249999999999997,12.557368354874361,71,Z,THRU
+P15,PCD29 baglanti,3.1,-7.249999999999997,12.557368354874361,77.5,Z,5
+P09,PCD29 baglanti,3.1,-7.250000000000006,-12.557368354874356,44.5,Z,5
+P10,PCD29 baglanti,2.4,-7.250000000000006,-12.557368354874356,53,Z,THRU
+P14,PCD29 baglanti,2.4,-7.250000000000006,-12.557368354874356,71,Z,THRU
+P15,PCD29 baglanti,3.1,-7.250000000000006,-12.557368354874356,77.5,Z,5
+P11,AS5600 inserti,3.1,-10.16,-6.35,9,Z,3
+P11,AS5600 inserti,3.1,-10.16,6.35,9,Z,3
+P11,AS5600 inserti,3.1,10.16,-6.35,9,Z,3
+P11,AS5600 inserti,3.1,10.16,6.35,9,Z,3
+P15,Kopru baglantisi,2.4,-26,-26,117,Z,THRU
+P16,Kopru baglantisi,2.4,-26,-26,124,Z,THRU
+P15,Kopru baglantisi,2.4,-26,26,117,Z,THRU
+P16,Kopru baglantisi,2.4,-26,26,124,Z,THRU
+P15,Kopru baglantisi,2.4,26,-26,117,Z,THRU
+P16,Kopru baglantisi,2.4,26,-26,124,Z,THRU
+P15,Kopru baglantisi,2.4,26,26,117,Z,THRU
+P16,Kopru baglantisi,2.4,26,26,124,Z,THRU
+P16,Dikme ayagi,2.4,-74,-30,124,Z,THRU
+P17,Dikme ayagi,2.4,-74,-30,131,Z,THRU
+P16,Dikme ayagi,2.4,-74,30,124,Z,THRU
+P17,Dikme ayagi,2.4,-74,30,131,Z,THRU
+P16,Dikme ayagi,2.4,74,-30,124,Z,THRU
+P18,Dikme ayagi,2.4,74,-30,131,Z,THRU
+P16,Dikme ayagi,2.4,74,30,124,Z,THRU
+P18,Dikme ayagi,2.4,74,30,131,Z,THRU
+P17,608 yatak cebi,22.15,-62.5,0,227,X,9
+P17,Donen ara burc rahatlatmasi,12.4,-62.5,0,227,X,THRU
+P18,608 yatak cebi,22.15,62.5,0,227,X,9
+P18,Donen ara burc rahatlatmasi,12.4,62.5,0,227,X,THRU
+P18,AS5600 inserti,3.1,78.5,-10.16,220.65,X,3
+P23,AS5600 kapak gecisi,2.4,83.1,-10.16,220.65,X,THRU
+P18,AS5600 inserti,3.1,78.5,-10.16,233.35,X,3
+P23,AS5600 kapak gecisi,2.4,83.1,-10.16,233.35,X,THRU
+P18,AS5600 inserti,3.1,78.5,10.16,220.65,X,3
+P23,AS5600 kapak gecisi,2.4,83.1,10.16,220.65,X,THRU
+P18,AS5600 inserti,3.1,78.5,10.16,233.35,X,3
+P23,AS5600 kapak gecisi,2.4,83.1,10.16,233.35,X,THRU
+P02,Sabit kule acikligi,36.8,0,0,31.5,Z,THRU
+P03,Tilt mil gecisi,8.5,0,0,0,X,THRU
+P03,Isik on aciklik,11,32,-18,0,Y,THRU
+P13,Horn vida erisimi,7,49.5,0,71,Z,THRU
+P14,Mil gecisi,8.5,0,0,71,Z,THRU
+P15,Sikmali mil yuvasi,8.1,0,0,85,Z,THRU
+P15,Capraz sikma,2.4,0,12,85.5,X,THRU
+P19,Tilt mil gecisi,8.5,-72,0,227,X,THRU
+P20,Doner gobek acikligi,38,0,0,79.5,Z,THRU
+P21,Miknatis,6.1,0,0,16.7,Z,2.6
+P21,Mil yapistirma,8.2,0,0,23.4,Z,4
+P22,Civata basligi,13.2,69.8,0,227,X,5.6
+P22,Miknatis,6.1,75.4,0,227,X,2.6
+P01,USB panel acikligi,24,55,74,17,Y,THRU
+E02,USB panel acikligi,22.2,55,81,17,Y,THRU
+P01,Guc gecisi,10,-55,74,17,Y,THRU
+E02,Guc gecisi,10,-55,81,17,Y,THRU
+P25,ESP tasiyici gecisi,2.4,-37,34.5,0,Y,THRU
+P06,ESP tasiyici inserti,3.1,-37,38.5,0,Y,5
+P25,ESP tasiyici gecisi,2.4,37,34.5,0,Y,THRU
+P06,ESP tasiyici inserti,3.1,37,38.5,0,Y,5
+E01,V2 taban montaji,2.4,-63,-53,-1.5,Z,THRU
+E01,V2 taban montaji,2.4,83,-53,-1.5,Z,THRU
+E02,V2 taban montaji,2.4,-63,53,-1.5,Z,THRU
+E02,V2 taban montaji,2.4,83,53,-1.5,Z,THRU
+E03,Sol servis kapak inserti,3.1,-97.5,-42,141,X,5
+E03,Sol servis kapak inserti,3.1,-97.5,-42,242,X,5
+E03,Sol servis kapak inserti,3.1,-97.5,42,141,X,5
+E03,Sol servis kapak inserti,3.1,-97.5,42,242,X,5
+E04,Sol servis kapak gecisi,2.4,-115,-42,141,X,THRU
+E04,Sol servis kapak gecisi,2.4,-115,-42,242,X,THRU
+E04,Sol servis kapak gecisi,2.4,-115,42,141,X,THRU
+E04,Sol servis kapak gecisi,2.4,-115,42,242,X,THRU
+E05,Sag servis kapak inserti,3.1,71.5,-24,144,X,5
+E05,Sag servis kapak inserti,3.1,71.5,-24,242,X,5
+E05,Sag servis kapak inserti,3.1,71.5,24,144,X,5
+E05,Sag servis kapak inserti,3.1,71.5,24,242,X,5
+E06,Sag servis kapak gecisi,2.4,80,-24,144,X,THRU
+E06,Sag servis kapak gecisi,2.4,80,-24,242,X,THRU
+E06,Sag servis kapak gecisi,2.4,80,24,144,X,THRU
+E06,Sag servis kapak gecisi,2.4,80,24,242,X,THRU

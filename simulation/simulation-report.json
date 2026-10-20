@@ -1,0 +1,38 @@
+{
+  "v1": {
+    "duration_s": 10.000000000000009,
+    "frames": 300,
+    "finite_state": true,
+    "pan_range_deg": [
+      -71.29759724347247,
+      71.29759739345357
+    ],
+    "tilt_range_deg": [
+      -53.45305082827387,
+      53.454108764481376
+    ],
+    "maximum_demo_tracking_error_deg": [
+      7.030079645119369,
+      10.371665577984588
+    ],
+    "note": "Illustrative position actuators; not measured MG996R dynamics. Mesh contacts disabled."
+  },
+  "v2": {
+    "duration_s": 10.000000000000009,
+    "frames": 300,
+    "finite_state": true,
+    "pan_range_deg": [
+      -71.29759724347247,
+      71.29759739345357
+    ],
+    "tilt_range_deg": [
+      -53.45305082827387,
+      53.454108764481376
+    ],
+    "maximum_demo_tracking_error_deg": [
+      7.030079645119369,
+      10.371665577984588
+    ],
+    "note": "Illustrative position actuators; not measured MG996R dynamics. Mesh contacts disabled."
+  }
+}

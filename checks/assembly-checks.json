@@ -1,0 +1,75 @@
+{
+  "static_interferences": [],
+  "hardware_envelope_interferences": [],
+  "gear_samples": [
+    {
+      "output_angle_deg": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 15,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 45,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 60,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 75,
+      "intersection_mm3": 0.0
+    },
+    {
+      "output_angle_deg": 90,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "optical_head_sweep_interferences": [],
+  "yaw_stop_samples": [
+    {
+      "angle": -90,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": -60,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": -30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": 0,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": 30,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": 60,
+      "intersection_mm3": 0.0
+    },
+    {
+      "angle": 90,
+      "intersection_mm3": 0.0
+    }
+  ],
+  "checked_tilt_angles": [
+    -90,
+    -60,
+    -30,
+    0,
+    30,
+    60,
+    90
+  ],
+  "note": "Geometric sampling only. No cable sweep, bearing fits, strength, laser classification or hardware testing."
+}

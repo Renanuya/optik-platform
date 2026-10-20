@@ -102,10 +102,10 @@ for code in ('E01','E02'):
  for x in (-63,83):hole(code,'V2 taban montaji',2.4,(x,-53 if code=='E01' else 53,-1.5))
 for code in ('E03','E04'):
  for y in (-42,42):
-  for z in (141,242):hole(code,'Sol servis kapak gecisi',2.4,(-115 if code=='E04' else -97.5,y,z),'X')
+  for z in (141,242):hole(code,'Sol servis kapak gecisi' if code=='E04' else 'Sol servis kapak inserti',2.4 if code=='E04' else 3.1,(-115 if code=='E04' else -97.5,y,z),'X','THRU' if code=='E04' else 5)
 for code in ('E05','E06'):
  for y in (-24,24):
-  for z in (144,242):hole(code,'Sag servis kapak gecisi',2.4,(80 if code=='E06' else 71.5,y,z),'X')
+  for z in (144,242):hole(code,'Sag servis kapak gecisi' if code=='E06' else 'Sag servis kapak inserti',2.4 if code=='E06' else 3.1,(80 if code=='E06' else 71.5,y,z),'X','THRU' if code=='E06' else 5)
 with (R/'drawings'/'delik-koordinatlari.csv').open('w',newline='',encoding='utf-8-sig') as f:
  w=csv.writer(f);w.writerow(['Parca','Aciklama','Cap_mm','Merkez_X_mm','Merkez_Y_mm','Merkez_Z_mm','Eksen','Derinlik_mm']);w.writerows(rows)
 frames=dict(units='mm; joint angles rad',pan=dict(parent='base',origin=[0,0,120],axis=[0,0,1],limits=[-math.pi/2,math.pi/2]),
@@ -119,5 +119,5 @@ text=(R/'README.template.md').read_text().replace('{{PART_COUNT}}',str(len(spec)
 text+='\n## Parça galerisi\n\nHer görsel gerçek CAD geometrisinden üretilmiştir. P13 iki, P26 altı adet; P24 test kuponu, P26 isteğe bağlıdır. E parçaları yalnız V2 içindir.\n\n'
 for i,d in enumerate(spec,7):
  text+=f"### {d['code']} - {d['name']}\n\n{d['note']}\n\n![{d['name']}](images/{d['code']}.png)\n\n[STEP](cad/{d['code']}.step) · [STL](stl/{d['code']}.stl) · [Ölçülü çizim](drawings/sayfa-{i:02d}.png)\n\n"
-(R/'README.md').write_text(text)
+(R/'README.md').write_text(text.rstrip()+'\n')
 print('RELEASE_CHECKS',len(checks),'parts;',len(rows),'hole-coordinate rows')

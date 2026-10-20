@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="OPTIK-V1-movement-prototype">
+  <compiler angle="radian" meshdir="assets" inertiafromgeom="false" />
+  <option timestep=".002" gravity="0 0 -9.81" integrator="implicitfast" />
+  <visual>
+    <global offwidth="960" offheight="720" />
+    <headlight ambient=".4 .4 .4" diffuse=".6 .6 .6" specular=".1 .1 .1" />
+  </visual>
+  <asset>
+    <mesh name="P01" file="P01.stl" />
+    <mesh name="P02" file="P02.stl" />
+    <mesh name="P03" file="P03.stl" />
+    <mesh name="P04" file="P04.stl" />
+    <mesh name="P05" file="P05.stl" />
+    <mesh name="P06" file="P06.stl" />
+    <mesh name="P07" file="P07.stl" />
+    <mesh name="P08" file="P08.stl" />
+    <mesh name="P09" file="P09.stl" />
+    <mesh name="P10" file="P10.stl" />
+    <mesh name="P11" file="P11.stl" />
+    <mesh name="P12" file="P12.stl" />
+    <mesh name="P13" file="P13.stl" />
+    <mesh name="P14" file="P14.stl" />
+    <mesh name="P15" file="P15.stl" />
+    <mesh name="P16" file="P16.stl" />
+    <mesh name="P17" file="P17.stl" />
+    <mesh name="P18" file="P18.stl" />
+    <mesh name="P19" file="P19.stl" />
+    <mesh name="P20" file="P20.stl" />
+    <mesh name="P21" file="P21.stl" />
+    <mesh name="P22" file="P22.stl" />
+    <mesh name="P23" file="P23.stl" />
+    <mesh name="P25" file="P25.stl" />
+    <mesh name="E01" file="E01.stl" />
+    <mesh name="E02" file="E02.stl" />
+    <mesh name="E03" file="E03.stl" />
+    <mesh name="E04" file="E04.stl" />
+    <mesh name="E05" file="E05.stl" />
+    <mesh name="E06" file="E06.stl" />
+    <mesh name="P13b" file="P13b.stl" />
+  </asset>
+  <worldbody>
+    <light pos=".3 -.4 .8" dir="-.3 .4 -.8" diffuse=".8 .8 .8" />
+    <geom name="floor" type="plane" size="1 1 .01" rgba=".89 .91 .92 1" pos="0 0 -.009" />
+    <body name="base">
+      <body name="pan">
+        <joint name="pan" type="hinge" axis="0 0 1" limited="true" range="-1.5707963 1.5707963" damping=".07" armature=".005" />
+        <inertial pos="0 0 0" mass="0.65" diaginertia="0.006 0.006 0.003" />
+        <body name="tilt" pos="0 0 0.227">
+          <joint name="tilt" type="hinge" axis="1 0 0" limited="true" range="-1.5707963 1.5707963" damping=".05" armature=".003" />
+          <inertial pos="0 0 0" mass="0.21" diaginertia="0.00018 0.00024 0.0003" />
+          <geom name="P03" type="mesh" mesh="P03" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P04" type="mesh" mesh="P04" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P05" type="mesh" mesh="P05" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P06" type="mesh" mesh="P06" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P07" type="mesh" mesh="P07" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P08" type="mesh" mesh="P08" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P19" type="mesh" mesh="P19" rgba="0.85882353 0.61960784 0.32156863 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P22" type="mesh" mesh="P22" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+          <geom name="P25" type="mesh" mesh="P25" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+          <geom name="ESP_reference" type="box" pos="0 0.0322 0" size="0.03137 0.0008 0.0127" rgba=".10 .35 .23 1" contype="0" conaffinity="0" />
+          <geom name="camera_reference" type="box" pos="-0.015 -0.0132 0" size="0.01785 0.0008 0.01195" rgba=".10 .35 .23 1" contype="0" conaffinity="0" />
+          <geom name="lens_reference" type="cylinder" pos="-.015 -.019 0" size=".005 .005" quat=".70710678 .70710678 0 0" rgba=".07 .10 .12 1" contype="0" conaffinity="0" />
+        </body>
+        <body name="tilt_driver" pos="-.072 0 0.1775">
+          <joint name="tilt_driver" axis="1 0 0" damping=".001" />
+          <inertial pos="0 0 0" mass="0.012" diaginertia="8e-06 4e-06 4e-06" />
+          <geom name="P13b" type="mesh" mesh="P13b" rgba="0.85882353 0.61960784 0.32156863 1" contype="0" conaffinity="0" group="1" />
+        </body>
+        <geom name="P14" type="mesh" mesh="P14" rgba="0.85882353 0.61960784 0.32156863 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P15" type="mesh" mesh="P15" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P16" type="mesh" mesh="P16" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P17" type="mesh" mesh="P17" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P18" type="mesh" mesh="P18" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P21" type="mesh" mesh="P21" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+        <geom name="P23" type="mesh" mesh="P23" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+        <geom name="tilt_servo" type="box" pos="-0.1032 0.00985 0.1775" size="0.0185 0.02035 0.00985" rgba=".10 .13 .15 1" contype="0" conaffinity="0" />
+      </body>
+      <body name="pan_driver" pos=".0495 0 .071">
+        <joint name="pan_driver" axis="0 0 1" damping=".001" />
+        <inertial pos="0 0 0" mass="0.012" diaginertia="4e-06 4e-06 8e-06" />
+        <geom name="P13" type="mesh" mesh="P13" rgba="0.85882353 0.61960784 0.32156863 1" contype="0" conaffinity="0" group="1" />
+      </body>
+      <geom name="P01" type="mesh" mesh="P01" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P02" type="mesh" mesh="P02" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P09" type="mesh" mesh="P09" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P10" type="mesh" mesh="P10" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P11" type="mesh" mesh="P11" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P12" type="mesh" mesh="P12" rgba="0.18823529 0.49803922 0.54117647 1" contype="0" conaffinity="0" group="1" />
+      <geom name="P20" type="mesh" mesh="P20" rgba="0.21568627 0.30588235 0.34509804 1" contype="0" conaffinity="0" group="1" />
+      <geom name="pan_servo" type="box" pos="0.05935 0 0.0396" size="0.02035 0.00985 0.0185" rgba=".10 .13 .15 1" contype="0" conaffinity="0" />
+    </body>
+  </worldbody>
+  <equality>
+    <joint joint1="pan_driver" joint2="pan" polycoef="0 -1.2 0 0 0" solref=".004 1" />
+    <joint joint1="tilt_driver" joint2="tilt" polycoef="0 -1.2 0 0 0" solref=".004 1" />
+  </equality>
+  <actuator>
+    <position name="pan_position" joint="pan" kp="8" kv="1.2" ctrllimited="true" ctrlrange="-1.5707963 1.5707963" forcelimited="true" forcerange="-1 1" />
+    <position name="tilt_position" joint="tilt" kp="8" kv="1.2" ctrllimited="true" ctrlrange="-1.5707963 1.5707963" forcelimited="true" forcerange="-1 1" />
+  </actuator>
+</mujoco>

@@ -1,0 +1,29 @@
+﻿Parca,Adet,Aciklama
+MG996R 360° servo,2,Mevcut. Sürekli dönüşlü sürüm kabulü; üçüncü servo yedek. Üç kablo açı telemetrisi değildir.
+Waveshare OV5640 Camera Board A,1,"35.7 x 23.9 mm PCB, DVP; lens/header yükseklikleri gerçek kartla doğrulanacak."
+Picotronic DI650-0.4-3(8x21),1,"Üretici sınıfı Class 1, 0.4 mW, 3 V, D8 x 21 mm."
+Adafruit AS5600 #6357,2,20.32 x 12.70 mm delik aralığı; klon PCB doğrudan uyumlu kabul edilmez.
+Çap boyunca kutuplanmış mıknatıs,2,D6 x 2.5 mm; sensör alan aralığı gerçek donanımla ölçülecek.
+608 rulman,4,D8 iç / D22 dış / 7 mm en. Geçme kuponuna göre yatağı ayarlayın.
+D8 taşlanmış pan mili,1,Nominal 106 mm; montajda Z21.4-127.4. Uç ve bilezik ölçülerini karşılaştırın.
+D8 sıkmalı mil bileziği,2,"Yaklaşık 6 mm en, en fazla D16 dış çap. İç bileziklere dayanır."
+"Ara burç, ID8.2 / OD12",5,"Pan 1 x 5 mm; tilt 1 x 3 mm, 2 x 4 mm, 1 x 2 mm."
+M8 x 35 DIN931 + M8 somun,1 set,"Sol tilt mili, kısmi dişsiz gövde. Bir montaj vidası yerine kullanılamaz."
+ISO7379 D8 x 16 / M6 + somun,1 set,"Sağ tilt mili, omuz 16 mm ve M6 diş. Tedarikçi baş/diş boyu kontrol edilir."
+Servo stok yuvarlak horn,2,"MG996R spline uyumlu, en az D22; dişliler M2 radyal slotlardan tutturulur."
+ESP32-S3 N16R8 kart,1,Kullanıcının kartı. Görsel DevKitC-1 referansı 62.74 x 25.40 mm; gerçek PCB kimliği bekleniyor.
+Adafruit USB-C panel #4218,1,"Nominal D22.2 dış kabuk deliği, D24 iç rahatlatma. Referans kablo 30 cm."
+Esnek USB uzatma / ince köşe fiş,1 set,Yaklaşık ilave 30 cm başlangıç; toplam uzunluk ve bükülme gerçek montajda ölçülür.
+"M2 ısıl insert, yaklaşık D3.1 x 4",42 aday,Seçilen insertin üretici delik tavsiyesi + P24 kuponu esastır. Satın alma ön tahmini.
+"M2 ısıl insert, yaklaşık D3.1 x 3",8 aday,Enkoder yatakları; gerçek insert geometrisiyle doğrulanır.
+M2 somun / geniş pul,1 takım,Yaklaşık 40 somun ve 30 pul alın; servo slotlarında en az D6 pul. Kesin adet montajda kapanır.
+M2 x 4,4,Pan enkoder PCB; 1.6 mm PCB + en fazla 2.4 mm insert kavrama. Alt kapalı tabana aşırı boy gönderilmez.
+M2 x 8,16,"Enkoder/çekmece 6, ESP taşıyıcı 2, kapak iç çerçeveleri 8."
+M2 x 10,12,"Taban kapak 4, servo sehpası tabanı 4, kamera kaseti 4."
+M2 x 12,15,"Pan çıkış 3, servo kulakları 8, V2 taban dış kabuk 4."
+M2 x 14 / x16,12 / 13,"Köprü+horn / kule tabanı 4, dikme ayakları 4, optik kelepçe 2, üst pan kartuşu 3. Baş/pul boyları kontrol edilir."
+M2 x 25 / x35 / x40 / x55,4 / 8 / 2 / 4,Sağ dış kapak / başlık ve sol kapak / rotor sıkma / dişli muhafazası. Uzun M2 burkulması kontrol edilir.
+"Esnek kablo, bağ ve köpük",1 set,"Kamera-ESP kısa DVP bağlantısı; kablo kanalı 12 x 4.5, ayak geçişi D8.5. R>=15 mm başlangıç hedefi."
+Taban ayakları,4,En az 5 mm; V1 alt bağlantıları ve V2 vida başları için.
+Regüle servo kaynağı,1,6 V / 5 A başlangıç adayı; gerçek servo akım/ısınma ölçümü gerekir. ESP ile ortak GND.
+I2C ayırma + güç geçişi,1 set,İki AS5600 aynı adreste: ayrı ESP I2C birimleri veya çoklayıcı; arka D10 güç geçişi.

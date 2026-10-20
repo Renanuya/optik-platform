@@ -1,0 +1,33 @@
+{
+  "revision": "R0.2",
+  "cad_source_commit": "bb7aef9",
+  "successful_build": "https://github.com/Renanuya/optik-platform/actions/runs/39415408003",
+  "part_count": 32,
+  "pdf_pages": 38,
+  "pdf_out_of_page_text_blocks": [],
+  "readme_missing_local_links": [],
+  "videos": {
+    "v1": {
+      "frames": 300,
+      "fps": 30.0,
+      "duration_s": 10.0,
+      "size": [
+        960,
+        720
+      ]
+    },
+    "v2": {
+      "frames": 300,
+      "fps": 30.0,
+      "duration_s": 10.0,
+      "size": [
+        960,
+        720
+      ]
+    }
+  },
+  "physical_print_or_assembly_test": false,
+  "servo_identification": "360 degree variant reported; physical fit and control response unverified",
+  "esp_board_identification": "N16R8 only; actual PCB not identified; DevKitC-1 is a reference envelope",
+  "metadata_note": "Eight enclosure insert entries corrected from D2.4 clearance to D3.1 insert seats after CI. CAD files unchanged."
+}
