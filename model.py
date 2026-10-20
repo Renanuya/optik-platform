@@ -329,7 +329,7 @@ if __name__=='__main__':
     add('P05','Kamera baski cercevesi',camera_backframe(),'1.5 mm baski cercevesi / 0.5 mm ince kopuk ara katman',
       color='#374e58',print_axis='Y',features=['47 x 35 x 1.5','4x D2.9','Konektor acikligi fiziksel PCB ile dogrulanacak'])
     add('P06','Elektronik sirt kapagi',rear_cover(),'Kisa kamera baglantisi / ESP kaseti / 4 adet M2 vida',
-      color='#374e58',print_axis='Y',features=['96 x 30 x 46 / on yuz Y18','4x D2.4 / 85 x 35 aralik','ESP tasiyici baglantisi: 2x M2','Kontrol karti modeli dogrulanacak'])
+      color='#374e58',print_axis='-Y',features=['96 x 30 x 46 / on yuz Y18','4x D2.4 / 85 x 35 aralik','ESP tasiyici baglantisi: 2x M2','Kontrol karti modeli dogrulanacak'])
     add('P07','Isik alt yatagi',laser_clamp(False),'Picotronic D8 x 21 mm govde / D8.30 yatak',
       features=['18 x 16 x 6','D8.30 yari kanal','2x D2.9 / 13 aralik'])
     add('P08','Isik ust kelepcesi',laser_clamp(True),'Iki M2.5 ile kapatma / optik govdeye baskiyi sinirla',

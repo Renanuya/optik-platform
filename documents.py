@@ -41,11 +41,11 @@ BOM=[
  ('M2 ısıl insert, yaklaşık D3.1 x 4','42 aday','Seçilen insertin üretici delik tavsiyesi + P24 kuponu esastır. Satın alma ön tahmini.'),
  ('M2 ısıl insert, yaklaşık D3.1 x 3','8 aday','Enkoder yatakları; gerçek insert geometrisiyle doğrulanır.'),
  ('M2 somun / geniş pul','1 takım','Yaklaşık 40 somun ve 30 pul alın; servo slotlarında en az D6 pul. Kesin adet montajda kapanır.'),
- ('M2 x 6','4','Pan enkoder PCB.'),
+ ('M2 x 4','4','Pan enkoder PCB; 1.6 mm PCB + en fazla 2.4 mm insert kavrama. Alt kapalı tabana aşırı boy gönderilmez.'),
  ('M2 x 8','16','Enkoder/çekmece 6, ESP taşıyıcı 2, kapak iç çerçeveleri 8.'),
- ('M2 x 10','12','Taban kapak 4, kule taban 4, kamera kaseti 4.'),
+ ('M2 x 10','12','Taban kapak 4, servo sehpası tabanı 4, kamera kaseti 4.'),
  ('M2 x 12','15','Pan çıkış 3, servo kulakları 8, V2 taban dış kabuk 4.'),
- ('M2 x 14 / x16 / x18','12 / 10 / 3','Köprü+horn / dikme ve servo sehpası+optik kelepçe / pan kartuşu. Baş boyları kontrol edilir.'),
+ ('M2 x 14 / x16','12 / 13','Köprü+horn / kule tabanı 4, dikme ayakları 4, optik kelepçe 2, üst pan kartuşu 3. Baş/pul boyları kontrol edilir.'),
  ('M2 x 25 / x35 / x40 / x55','4 / 8 / 2 / 4','Sağ dış kapak / başlık ve sol kapak / rotor sıkma / dişli muhafazası. Uzun M2 burkulması kontrol edilir.'),
  ('Esnek kablo, bağ ve köpük','1 set','Kamera-ESP kısa DVP bağlantısı; kablo kanalı 12 x 4.5, ayak geçişi D8.5. R>=15 mm başlangıç hedefi.'),
  ('Taban ayakları','4','En az 5 mm; V1 alt bağlantıları ve V2 vida başları için.'),
@@ -162,7 +162,7 @@ def main():
         c.showPage()
     note_page(c,'Montaj / yatak ve mil zinciri',[
       ('1 - Önce geçmeler','P24 kuponunu son parçada kullanacağınız filament ve profille basın. 608 dış çapı için delik sırası 21.95 / 22.05 / 22.15 / 22.25 mm. Rulmanı zorlayarak gövdeyi çatlatmayın. Seçilen kupona göre yatak parametresini değiştirip STEP/STL üretin.'),
-      ('2 - Pan modülü','P09 kuleyi P01 tabana bağlayın. P11 çekmecesine AS5600 PCB takın. Mil, mıknatıs ve sensör merkezlerini çakıştırın. Alt 608 Z40-47, üst 608 Z52-59. İç bilezikler arasında 5 mm ara burç bulunur. İki sıkmalı mil bileziği eksenel boşluğu tutar; dış bileziklere gereksiz ön yük vermeyin.'),
+      ('2 - Pan modülü','P09 kuleyi P01 tabana dört M2 x 16 + somunla bağlayın. Üst P10 kartuşta M2 x 16 kullanın; kör insert deliklerine uzun vida dayamayın. P11 çekmecesine AS5600 PCB takın. Mil, mıknatıs ve sensör merkezlerini çakıştırın. Alt 608 Z40-47, üst 608 Z52-59. İç bilezikler arasında 5 mm ara burç bulunur. İki sıkmalı mil bileziği eksenel boşluğu tutar; dış bileziklere gereksiz ön yük vermeyin.'),
       ('3 - Pan aktarımı','P12 sehpa + servo + stok horn + P13 tahrik dişlisi. P14 çıkış dişlisini P15 rotorun altına üç M2 ile bağlayın. Dişli merkez aralığı 49.5 mm; baskı boşluğu prototipte kontrol edilir. P20 muhafazayı kapatmadan mekanizmayı elle çevirin.'),
       ('4 - Köprü ve dikmeler','P16 köprüyü P15 flansa bağlayan dört M2 x 14 vida alttan taşmamalı; uzun vidalar durduruculara çarpabilir. P17/P18 dikmeleri dört M2 x 16 ile takın. Rulman merkezleri ortak X doğrusu üzerinde ve tabandan 227 mm yüksektedir.'),
       ('5 - Tilt mili','Sol: M8 x 35 DIN931 başı P19 dişlinin cebinde, ardından 3 mm dış burç + 608 + 4 mm iç burç. Sağ: D8 x 16/M6 omuz civatası, 2 mm dış + 608 + 4 mm iç burç. M6 somun sağ başlık cebinde. Standart dışı baş/omuz boyu almayın; tedarikçi çizimi ve parça zincirini karşılaştırın.'),
@@ -176,7 +176,7 @@ def main():
     ],5,total)
     note_page(c,'Baskı / kaynaklar / doğrulama sınırları',[
       ('Baskı başlangıç profili','Gövde ve dikmeler için PETG ile ilk prototip; üreticinin filament profili, 0.4 mm nozül, 0.20 mm katman, 5 duvar, 6 üst/alt katman ve %30 dolgu bir başlangıç önerisidir. Gerçek mukavemet veya isabet hassasiyeti bu ayarlardan türetilemez. V2 taban dış kabuğu yaklaşık 205 x 165 mm olup X1 Carbon nominal hacmi 256 x 256 x 256 mm içindedir.'),
-      ('Yön ve destek','STL dosyaları belirtilen baskı yönüne döndürülüp Z=0 üzerine alınmıştır. P03/P04/P05/P06, Y normali; P17/P18/P19/P22/P23, X normali; P20 kapak yüzeyi aşağı. Özellikle dikmeler ve yan çıkıntılarda yerel destek gerekir. Bambu Studio önizlemesinde havada başlayan katmanları, rulman deliklerini ve destek temaslarını kontrol edin.'),
+      ('Yön ve destek','STL dosyaları belirtilen baskı yönüne döndürülüp Z=0 üzerine alınmıştır. P03/P04/P05, Y normali; P06 sırt yüzeyi tablaya (-Y); P17/P18/P19/P22/P23, X normali; P20 kapak yüzeyi aşağı. Özellikle dikmeler ve yan çıkıntılarda yerel destek gerekir. Bambu Studio önizlemesinde havada başlayan katmanları, rulman deliklerini ve destek temaslarını kontrol edin.'),
       ('Henüz doğrulanmayanlar','Baskı geçmeleri, gerçek servo boyutları ve horn delikleri; kabloların tüm hareket boyunca açıklığı; mıknatıs alanı; kamera pinleri ve kare hızı; yük altında boşluk, rijitlik ve kontrol kararlılığı. CAD hacimleri gerçek baskı ağırlığı değildir. İlk mekanik kurulumdan sonra ölçülerek revize edilmelidir.'),
       ('Geometri kontrolleri','Her STEP gövdesi topolojik geçerlilik, her STL kapalı ağ ve tabla hacmi kontrolünden geçirilir. Montaj için seçili pan/tilt açılarında kesişimler örneklenir; sonuçlar checks/assembly-checks.json içindedir. Bu örnekleme sürekli çarpışma testi veya sonlu eleman analizi değildir.'),
       ('Alüminyum revizyonu','Bu FDM gövdeleri doğrudan CNC üretim çizimi değildir. Önce P16 köprü ve dikmelerin düz plaka/ara parçalı metal revizyonu yapılır; yatak geçmeleri, bağlantı dişleri, kütle/atalet ve servo yeterliliği yeniden hesaplanır. ESP anteni metal kabukta uygun RF açıklığı ister. MuJoCo videoları yaklaşık dinamik değerlerle hareket gösterimidir; donanım kalibrasyonu yapılmadı.'),
