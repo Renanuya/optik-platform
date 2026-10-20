@@ -1,0 +1,792 @@
+[
+  {
+    "code": "P01",
+    "name": "Elektronik taban",
+    "qty": 1,
+    "note": "190 x 150 x 30 mm / 3 mm duvar / 6 mm taban",
+    "color": "#307f8a",
+    "bbox": [
+      -85.0,
+      -75.0,
+      0.0,
+      105.0,
+      75.0,
+      30.0
+    ],
+    "size": [
+      190.0,
+      150.0,
+      30.0
+    ],
+    "volume_mm3": 231408.02905677762,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      190.0,
+      150.0,
+      30.0
+    ],
+    "features": [
+      "Dis olcu 190 x 150 x 30",
+      "R12 dis kose",
+      "4x M3 insert yuvasi D4.4 x 5",
+      "4x tezgah deligi D4.5 / 146 x 106 aralik"
+    ]
+  },
+  {
+    "code": "P02",
+    "name": "Servis kapagi",
+    "qty": 1,
+    "note": "190 x 150 x 3 mm / sokulebilir / kablo ve havalandirma acikliklari",
+    "color": "#374e58",
+    "bbox": [
+      -85.0,
+      -75.0,
+      30.0,
+      105.0,
+      75.0,
+      33.0
+    ],
+    "size": [
+      190.0,
+      150.0,
+      3.0
+    ],
+    "volume_mm3": 74290.5625797941,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      190.0,
+      150.0,
+      3.0
+    ],
+    "features": [
+      "4x D3.4 / 166 x 126 aralik",
+      "D32.6 merkez acikligi",
+      "62 x 32 servo servis acikligi"
+    ]
+  },
+  {
+    "code": "P03",
+    "name": "Optik baslik govdesi",
+    "qty": 1,
+    "note": "OV5640 + D8 mm Class 1 isik modulu / yalniz optik yuk",
+    "color": "#307f8a",
+    "bbox": [
+      -54.0,
+      -18.0,
+      -23.0,
+      55.4,
+      18.0,
+      23.0
+    ],
+    "size": [
+      109.4,
+      36.0,
+      46.0
+    ],
+    "volume_mm3": 48276.70892211233,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      109.4,
+      36.0,
+      46.0
+    ],
+    "features": [
+      "96 x 36 x 46 ana govde",
+      "D8.5 iki yan mil deligi",
+      "M8 somun cebi AF13.3",
+      "4x M3 insert D4.4 x 5",
+      "37 x 25 kamera penceresi"
+    ]
+  },
+  {
+    "code": "P04",
+    "name": "Kamera kaseti",
+    "qty": 1,
+    "note": "Waveshare OV5640 Board A / 36.1 x 24.3 mm PCB oturma cebi",
+    "color": "#307f8a",
+    "bbox": [
+      -38.5,
+      -15.0,
+      -17.5,
+      8.5,
+      -12.0,
+      17.5
+    ],
+    "size": [
+      47.0,
+      3.0,
+      35.0
+    ],
+    "volume_mm3": 2461.27761734993,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Y",
+    "print_size": [
+      47.0,
+      35.0,
+      3.0000000000000036
+    ],
+    "features": [
+      "PCB nominali 35.7 x 23.9",
+      "32 x 20 optik aciklik",
+      "4x D2.9 / 41 x 29 aralik"
+    ]
+  },
+  {
+    "code": "P05",
+    "name": "Kamera baski cercevesi",
+    "qty": 1,
+    "note": "1.5 mm baski cercevesi / 0.5 mm ince kopuk ara katman",
+    "color": "#374e58",
+    "bbox": [
+      -38.5,
+      -12.0,
+      -17.5,
+      8.5,
+      -10.5,
+      17.5
+    ],
+    "size": [
+      47.0,
+      1.5,
+      35.0
+    ],
+    "volume_mm3": 1467.8688086749644,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Y",
+    "print_size": [
+      47.0,
+      35.0,
+      1.5000000000000036
+    ],
+    "features": [
+      "47 x 35 x 1.5",
+      "4x D2.9",
+      "Konektor acikligi fiziksel PCB ile dogrulanacak"
+    ]
+  },
+  {
+    "code": "P06",
+    "name": "Baslik arka kapagi",
+    "qty": 1,
+    "note": "Kablo cikisi + sogutma / 4 adet M3 vida",
+    "color": "#374e58",
+    "bbox": [
+      -48.0,
+      18.0,
+      -23.0,
+      48.0,
+      21.0,
+      23.0
+    ],
+    "size": [
+      96.0,
+      3.0,
+      46.0
+    ],
+    "volume_mm3": 12085.562828838632,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Y",
+    "print_size": [
+      96.0,
+      46.0,
+      3.0
+    ],
+    "features": [
+      "4x D3.4 / 85 x 35 aralik",
+      "14 x 7 kablo cikisi"
+    ]
+  },
+  {
+    "code": "P07",
+    "name": "Isik alt yatagi",
+    "qty": 1,
+    "note": "Picotronic D8 x 21 mm govde / D8.30 yatak",
+    "color": "#307f8a",
+    "bbox": [
+      17.0,
+      -8.0,
+      -6.0,
+      35.0,
+      8.0,
+      2.541142108230758e-16
+    ],
+    "size": [
+      18.0,
+      16.0,
+      6.0
+    ],
+    "volume_mm3": 1215.888981538328,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      18.0,
+      16.0,
+      6.0
+    ],
+    "features": [
+      "18 x 16 x 6",
+      "D8.30 yari kanal",
+      "2x D2.9 / 13 aralik"
+    ]
+  },
+  {
+    "code": "P08",
+    "name": "Isik ust kelepcesi",
+    "qty": 1,
+    "note": "Iki M2.5 ile kapatma / optik govdeye baskiyi sinirla",
+    "color": "#374e58",
+    "bbox": [
+      17.0,
+      -8.0,
+      0.19999999999999363,
+      35.0,
+      8.0,
+      6.2
+    ],
+    "size": [
+      18.0,
+      16.0,
+      6.000000000000006
+    ],
+    "volume_mm3": 1242.4386968291021,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      18.0,
+      16.0,
+      6.0
+    ],
+    "features": [
+      "18 x 16 x 6",
+      "D8.30 yari kanal",
+      "0.2 mm kelepce araligi"
+    ]
+  },
+  {
+    "code": "P09",
+    "name": "Pan rulman kulesi",
+    "qty": 1,
+    "note": "608 yatak / enkoder erisimi / 4 adet M4 taban baglantisi",
+    "color": "#307f8a",
+    "bbox": [
+      -29.0,
+      -29.0,
+      6.0,
+      29.0,
+      29.0,
+      47.0
+    ],
+    "size": [
+      58.0,
+      58.0,
+      41.0
+    ],
+    "volume_mm3": 32548.29874508057,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      58.0,
+      58.0,
+      41.0
+    ],
+    "features": [
+      "58 x 58 taban",
+      "4x D4.5 / 44 x 44 aralik",
+      "Alt 608 cebi D22.15 x 7 / Z40-47",
+      "3x M3 insert / PCD29"
+    ]
+  },
+  {
+    "code": "P10",
+    "name": "Ust rulman kartusu",
+    "qty": 1,
+    "note": "Ikinci 608 rulman / iki yatak arasinda 12 mm merkez mesafesi",
+    "color": "#374e58",
+    "bbox": [
+      -18.0,
+      -18.0,
+      47.0,
+      18.0,
+      18.0,
+      59.0
+    ],
+    "size": [
+      36.0,
+      36.0,
+      12.0
+    ],
+    "volume_mm3": 7917.977839823517,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      35.9776245819406,
+      35.988810552029385,
+      12.0
+    ],
+    "features": [
+      "D36 x 12",
+      "608 cebi D22.15 x 7",
+      "3x D3.4 / PCD29"
+    ]
+  },
+  {
+    "code": "P11",
+    "name": "Pan enkoder cekmecesi",
+    "qty": 1,
+    "note": "Adafruit AS5600 #6357 / uretici PCB deliklerine gore",
+    "color": "#307f8a",
+    "bbox": [
+      -22.0,
+      -32.0,
+      6.0,
+      22.0,
+      11.0,
+      14.0
+    ],
+    "size": [
+      44.0,
+      43.0,
+      8.0
+    ],
+    "volume_mm3": 4381.336060814489,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      44.0,
+      43.0,
+      8.0
+    ],
+    "features": [
+      "PCB 25.4 x 17.78",
+      "4x M2.5 insert / 20.32 x 12.70 aralik",
+      "PCB alt duzlemi Z10.5"
+    ]
+  },
+  {
+    "code": "P12",
+    "name": "Pan servo sehpası",
+    "qty": 1,
+    "note": "MG996R govde oturma acikligi / uzun montaj delikleri",
+    "color": "#307f8a",
+    "bbox": [
+      28.35,
+      -16.0,
+      6.0,
+      90.35,
+      16.0,
+      47.9
+    ],
+    "size": [
+      61.99999999999999,
+      32.0,
+      41.9
+    ],
+    "volume_mm3": 14937.646929131026,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      61.99999999999999,
+      32.0,
+      41.9
+    ],
+    "features": [
+      "Gövde penceresi 41.3 x 20.3",
+      "Kulak yuzeyi Z47.9",
+      "Nominal kulak vida araligi 49 x 10, slot ile ayar",
+      "Alt 4x insert D4.4 x 5"
+    ]
+  },
+  {
+    "code": "P13",
+    "name": "Servo tahrik dislisi",
+    "qty": 2,
+    "note": "30 dis / modul 1.5 / 20 derece / stok servo hornuna vidalanir",
+    "color": "#db9e52",
+    "bbox": [
+      25.5,
+      -23.91196933103068,
+      67.0,
+      73.5,
+      23.91196933103068,
+      75.0
+    ],
+    "size": [
+      48.0,
+      47.82393866206136,
+      8.0
+    ],
+    "volume_mm3": 11597.475826201036,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      48.0,
+      47.82393866206136,
+      8.0
+    ],
+    "features": [
+      "m1.5 / z30 / basinc acisi 20",
+      "Dis genisligi 8",
+      "Stok horn: 4 radyal slot 6 x 2.9",
+      "0.18 mm dis kalinligi azaltma"
+    ]
+  },
+  {
+    "code": "P14",
+    "name": "Pan cikis dislisi",
+    "qty": 1,
+    "note": "36 dis / 49.5 mm eksen araligi / cikis hiz orani 5:6",
+    "color": "#db9e52",
+    "bbox": [
+      -28.428617890080158,
+      -28.428617890080158,
+      67.0,
+      28.428617890080158,
+      28.428617890080158,
+      75.0
+    ],
+    "size": [
+      56.857235780160316,
+      56.857235780160316,
+      8.0
+    ],
+    "volume_mm3": 17286.072268207576,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      56.857235780160316,
+      56.857235780160316,
+      8.0
+    ],
+    "features": [
+      "m1.5 / z36 / basinc acisi 20",
+      "3x D3.4 / PCD29",
+      "D8.5 merkez deligi"
+    ]
+  },
+  {
+    "code": "P15",
+    "name": "Pan doner tasiyici",
+    "qty": 1,
+    "note": "D8 mil sikma gobegi / kamera koprusu / mekanik hareket durdurucu",
+    "color": "#307f8a",
+    "bbox": [
+      -46.0,
+      -46.0,
+      74.9999999,
+      46.0,
+      46.0,
+      100.0
+    ],
+    "size": [
+      92.0,
+      92.0,
+      25.000000099999994
+    ],
+    "volume_mm3": 57024.02466556786,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      92.0,
+      92.0,
+      25.0
+    ],
+    "features": [
+      "D92 x 6 ust flans",
+      "D8.10 mil cebi",
+      "M3 capraz sikma civatasi",
+      "4x M3 / 52 x 52 aralik",
+      "3x insert / PCD29"
+    ]
+  },
+  {
+    "code": "P16",
+    "name": "Optik platform koprusu",
+    "qty": 1,
+    "note": "168 x 90 x 6 mm / iki dikme / yalniz kamera ve isik basligi",
+    "color": "#307f8a",
+    "bbox": [
+      -84.0,
+      -45.0,
+      100.0,
+      84.0,
+      45.0,
+      106.0
+    ],
+    "size": [
+      168.0,
+      90.0,
+      6.0
+    ],
+    "volume_mm3": 89415.4387542238,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      168.0,
+      90.0,
+      6.0
+    ],
+    "features": [
+      "4x D3.4 / 52 x 52 aralik",
+      "Dikme delikleri D4.5 / 148 x 60 aralik"
+    ]
+  },
+  {
+    "code": "P17",
+    "name": "Sol hareket dikmesi",
+    "qty": 1,
+    "note": "Tilt servosu + 608 yatagi / yan yuzeyi baski tablasina",
+    "color": "#307f8a",
+    "bbox": [
+      -95.0,
+      -45.0,
+      106.0,
+      -52.0,
+      45.0,
+      222.0
+    ],
+    "size": [
+      43.0,
+      90.0,
+      116.0
+    ],
+    "volume_mm3": 91075.33810808294,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      116.0,
+      90.0,
+      43.00000000000001
+    ],
+    "features": [
+      "Tilt ekseni Z205",
+      "Motor ekseni Z155.5",
+      "49.5 mm disli eksen araligi",
+      "608 cebi D22.15 x 9",
+      "Slotlu servo montaji"
+    ]
+  },
+  {
+    "code": "P18",
+    "name": "Sag sensor dikmesi",
+    "qty": 1,
+    "note": "608 yatak / AS5600 sabit montaji / +-90 derece durdurucular",
+    "color": "#307f8a",
+    "bbox": [
+      52.0,
+      -45.0,
+      106.0,
+      84.0,
+      45.0,
+      222.0
+    ],
+    "size": [
+      32.0,
+      90.0,
+      116.0
+    ],
+    "volume_mm3": 44440.09052638448,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      116.0,
+      90.0,
+      32.00000000000001
+    ],
+    "features": [
+      "Tilt ekseni Z205",
+      "608 cebi D22.15 x 9",
+      "AS5600: 20.32 x 12.70 aralik",
+      "PCB alt duzlemi X80"
+    ]
+  },
+  {
+    "code": "P19",
+    "name": "Tilt cikis dislisi",
+    "qty": 1,
+    "note": "36 dis / M8 baslik yakalama / standart 8 mm omuzlu baglanti",
+    "color": "#db9e52",
+    "bbox": [
+      -76.0,
+      -28.428617890080158,
+      176.57138210991982,
+      -68.0,
+      28.428617890080158,
+      233.42861789008015
+    ],
+    "size": [
+      8.0,
+      56.857235780160316,
+      56.85723578016032
+    ],
+    "volume_mm3": 16983.16356626268,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      56.857235780160295,
+      56.857235780160316,
+      8.0
+    ],
+    "features": [
+      "m1.5 / z36 / dis genisligi 8",
+      "M8 alti kose baslik cebi AF13.3 x 5.4"
+    ]
+  },
+  {
+    "code": "P20",
+    "name": "Pan aktarim muhafazasi",
+    "qty": 1,
+    "note": "Dislileri orter / iki mekanik durdurucu / kapak asagi basilir",
+    "color": "#374e58",
+    "bbox": [
+      -40.0,
+      -40.526315789473685,
+      33.0,
+      88.0,
+      40.526315789473685,
+      93.7
+    ],
+    "size": [
+      128.0,
+      81.05263157894737,
+      60.7
+    ],
+    "volume_mm3": 47496.51994884733,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "-Z",
+    "print_size": [
+      128.0,
+      81.05076667095227,
+      60.70000000000001
+    ],
+    "features": [
+      "128 x 76 dis cevre",
+      "4x D3.4 uzun baglanti",
+      "D38 doner gobek boslugu",
+      "+-90 derece mekanik sinir"
+    ]
+  },
+  {
+    "code": "P21",
+    "name": "Pan miknatis adaptoru",
+    "qty": 1,
+    "note": "Cap boyunca kutuplanmis D6 x 2.5 miknatis / mile yapistirma",
+    "color": "#307f8a",
+    "bbox": [
+      -6.0,
+      -6.0,
+      15.399999999999999,
+      6.0,
+      6.0,
+      25.4
+    ],
+    "size": [
+      12.0,
+      12.0,
+      10.0
+    ],
+    "volume_mm3": 843.7485345488984,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "Z",
+    "print_size": [
+      11.992541527313534,
+      11.996270184009795,
+      10.0
+    ],
+    "features": [
+      "D12 x 10",
+      "Miknatis cebi D6.10 x 2.6",
+      "Mil cebi D8.2 x 4"
+    ]
+  },
+  {
+    "code": "P22",
+    "name": "Tilt miknatis adaptoru",
+    "qty": 1,
+    "note": "D8 omuz civatasi basligina gecme / D6 x 2.5 capsal miknatis",
+    "color": "#307f8a",
+    "bbox": [
+      67.0,
+      -8.0,
+      197.0,
+      76.7,
+      8.0,
+      213.0
+    ],
+    "size": [
+      9.700000000000003,
+      16.0,
+      16.0
+    ],
+    "volume_mm3": 1107.9690430864152,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      15.990055369751389,
+      15.99502691201306,
+      9.700000000000003
+    ],
+    "features": [
+      "D16 x 9.7",
+      "Baslik cebi D13.2 x 5.6",
+      "Miknatis cebi D6.10 x 2.6"
+    ]
+  },
+  {
+    "code": "P23",
+    "name": "Enkoder dis kapagi",
+    "qty": 1,
+    "note": "AS5600 PCB arka yuzu / 4 adet M2.5 baglanti",
+    "color": "#374e58",
+    "bbox": [
+      81.6,
+      -17.0,
+      191.5,
+      84.6,
+      17.0,
+      218.5
+    ],
+    "size": [
+      3.0,
+      34.0,
+      27.0
+    ],
+    "volume_mm3": 2674.7376173499288,
+    "watertight": true,
+    "cad_valid": true,
+    "print_axis": "X",
+    "print_size": [
+      27.0,
+      34.0,
+      3.0
+    ],
+    "features": [
+      "34 x 27 x 3",
+      "4x D2.9 / 20.32 x 12.70 aralik"
+    ]
+  }
+]
